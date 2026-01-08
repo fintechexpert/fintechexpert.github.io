@@ -16,7 +16,7 @@ const projects = [
     description:
       "A simple game built with CSS animations and vanilla JavaScript",
     image: "./dario.jpg",
-    link: "https://cristinafrombr.github.io/super-dario",
+    link: "https://fintechexpert.github.io/super-dario",
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ function App() {
     <div className="portfolio-container">
       <header>
         <h1>
-          ACS <span>Senior Frontend Engineer</span>
+          AndreaSantana <span>Senior Fullstack Engineer</span>
         </h1>
         <div class="social-links">
           <div class="social-btn" id="upwork">
@@ -68,7 +68,7 @@ function App() {
               </svg>
             </a>
           </div>
-          <div class="social-btn" id="linkedin">
+          {/* <div class="social-btn" id="linkedin">
             <a target="_blank" href="https://www.linkedin.com/in/acsfrontend/">
               <svg
                 class="social-svg"
@@ -93,9 +93,9 @@ function App() {
                 </g>
               </svg>
             </a>
-          </div>
+          </div> */}
           <div class="social-btn" id="github">
-            <a target="_blank" href="https://github.com/cristinafrombr">
+            <a target="_blank" href="https://github.com/fintechexpert">
               <svg
                 class="social-svg"
                 viewBox="0 0 600 600"
@@ -116,7 +116,7 @@ function App() {
           <div class="social-btn" id="curriculum">
             <a
               target="_blank"
-              href="https://cristinafrombr.github.io/ACS_Front-End.pdf"
+              href="https://fintechexpert.github.io/AndreaSantana_FintechExpert.pdf"
             >
               <svg
                 fill="#ffffff"

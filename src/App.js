@@ -49,7 +49,7 @@ function App() {
     <div className="portfolio-container">
       <header>
         <h1>
-          AndreaSantana <span>Senior Fullstack Engineer</span>
+          Santana <span>Senior Fullstack Engineer</span>
         </h1>
         <div class="social-links">
           <div class="social-btn" id="upwork">
@@ -116,7 +116,7 @@ function App() {
           <div class="social-btn" id="curriculum">
             <a
               target="_blank"
-              href="https://fintechexpert.github.io/AndreaSantana_FintechExpert.pdf"
+              href="https://fintechexpert.github.io/Santana_fintechExpert.pdf"
             >
               <svg
                 fill="#ffffff"

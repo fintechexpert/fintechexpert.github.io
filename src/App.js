@@ -153,25 +153,23 @@ function App() {
         </div>
       </header>
 
-      {projects.map((project) => (
-        <a
-          href={project.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          key={project.id}
-          className="project-item"
-        >
-          <img
-            src={project.image}
-            alt={project.title}
-            className="project-image"
-          />
-          <div className="project-details">
-            <h3 className="project-title">{project.title}</h3>
-            <p className="project-description">{project.description}</p>
-          </div>
-        </a>
-      ))}
+      <main>
+        {projects.map((project) => (
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            key={project.id}
+            className="project-item"
+          >
+            <img src={project.image} alt={""} className="project-image" />
+            <div className="project-details">
+              <h2 className="project-title">{project.title}</h2>
+              <p className="project-description">{project.description}</p>
+            </div>
+          </a>
+        ))}
+      </main>
     </div>
   );
 }
